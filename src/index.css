@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+html, body {
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+@utility font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+@utility font-mechelen {
+    font-family: "KV Mechelen 2021", sans-serif;
+}
