@@ -20,12 +20,16 @@ export default function Home() {
 
                         {/* Tombol CTA */}
                         <div className="flex flex-wrap gap-4 mt-6">
-                            <button className="bg-blue-600 text-white px-6 py-3 font-cheapsman font-semibold hover:bg-blue-700 transition">
-                                DAFTAR SEKARANG
-                            </button>
-                            <button className="border text-white border-white px-6 py-3 font-cheapsman font-semibold hover:bg-white hover:text-black transition">
-                                PELAJARI LEBIH LANJUT
-                            </button>
+                            <a href="#pendaftaran">
+                                <button className="bg-blue-600 text-white px-6 py-3 font-cheapsman font-semibold hover:bg-blue-700 transition">
+                                    DAFTAR SEKARANG
+                                </button>
+                            </a>
+                            <a href="#teknis">
+                                <button className="border text-white border-white px-6 py-3 font-cheapsman font-semibold hover:bg-white hover:text-black transition">
+                                    PELAJARI LEBIH LANJUT
+                                </button>
+                            </a>
                         </div>
                     </div>
                     {/* Box End */}
