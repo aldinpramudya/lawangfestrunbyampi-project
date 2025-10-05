@@ -1,12 +1,18 @@
-import Home from './pages/Home'
+import Navbar from "./components/Navbar";
+import Home from './pages/Home';
+import Event from './pages/Event';
+
+
 import './App.css'
 
 function App() {
 
   return (
-    <>
-      <Home/>
-    </>
+    <div className='min-h-screen overflow-hidden'>
+      <Navbar />
+      <Home />
+      <Event />
+    </div>
   )
 }
 
