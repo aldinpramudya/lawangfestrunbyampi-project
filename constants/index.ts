@@ -43,3 +43,12 @@ export const NavLinks = [
     }
 ];
 
+export const colors = {
+    blue1: "#091F5A",
+    blue2: "#354EAE",
+    blue3: "#316FD9",
+    blue4: "#7096D2",
+    blue5: "#CFE4FF",
+    blueWhite: '#E9F2FF',
+}
+

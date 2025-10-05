@@ -1,6 +1,10 @@
 import Navbar from "./components/Navbar";
 import Home from './pages/Home';
 import Event from './pages/Event';
+import RouteSchedule from "./pages/RouteSchedule";
+import Registration from "./pages/Registration";
+import TechnicalInstruction from "./pages/TechnicalInstruction";
+import Contact from "./pages/Contact";
 
 
 import './App.css'
@@ -12,6 +16,10 @@ function App() {
       <Navbar />
       <Home />
       <Event />
+      <RouteSchedule />
+      <Registration />
+      <TechnicalInstruction/>
+      <Contact/>
     </div>
   )
 }
