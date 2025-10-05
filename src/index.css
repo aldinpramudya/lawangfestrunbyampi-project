@@ -15,6 +15,11 @@ html, body {
     padding-top: 200px;
 }
 
+.blue1-font-custom {
+    color : #091F5A;
+
+}
+
 @utility font-poppins {
     font-family: 'Poppins', sans-serif;
 }

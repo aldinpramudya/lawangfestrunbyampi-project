@@ -1,7 +1,41 @@
 export default function Event() {
     return (
         <section id="event">
-            <h1>Tes</h1>
+            <div className="min-h-screen bg-white text-black">
+                <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                    {/* Kontent Kiri */}
+                    <div className="flex flex-col items-center space-y-6">
+                        <img src="/images/logo.png" alt="Logo" className="w-48 md:w-56" />
+                        <h2 className="font-cheapsman blue1-font-custom text-2xl md:text-3xl font-bold tracking-wide uppercase">
+                            run in nature, feel the village
+                        </h2>
+                        <p className="text-gray-700 px-2 md:text-xl text-justify leading-relaxed max-w-md">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
+                            ex sodales, ultrices lectus a, tempus ligula. Sed aliquet magna a
+                            massa porttitor tristique. Aenean a dui suscipit, dapibus sem sed,
+                            molestie mauris. Phasellus dapibus, libero convallis fringilla
+                            convallis, justo quam ultricies turpis, sed posuere mi turpis vel
+                            nisl. Proin sollicitudin vitae felis a tempor.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
+                            ex sodales, ultrices lectus a, tempus ligula. Sed aliquet magna a
+                            massa porttitor tristique. Aenean a dui suscipit, dapibus sem sed,
+                            molestie mauris. Phasellus dapibus, libero convallis fringilla
+                            convallis, justo quam ultricies turpis, sed posuere mi turpis vel
+                            nisl. Proin sollicitudin vitae felis a tempor.
+                        </p>
+                    </div>
+                    {/* Konten Kiri End */}
+
+                    {/* Konten Kanan */}
+                    <div className="grid grid-cols-2 gap-2 md:pt-35 px-20">
+                        <img src="/images/running-photos.png" alt="Running Photos" className="w-[250px]" />
+                        <img src="/images/running-photos.png" alt="Running Photos" className="w-[250px]" />
+                        <img src="/images/running-photos.png" alt="Running Photos" className="w-[250px]" />
+                        <img src="/images/running-photos.png" alt="Running Photos" className="w-[250px]" />
+                    </div>
+                    {/* Konten Kanan End */}
+                </div>
+            </div>
         </section>
     )
 }
