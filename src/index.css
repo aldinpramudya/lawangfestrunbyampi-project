@@ -17,8 +17,28 @@ html, body {
 
 .blue1-font-custom {
     color : #091F5A;
-
 }
+
+.blue2-font-custom {
+    color : #354EAE;
+}
+
+.blue3-font-custom {
+    color: #316FD9;
+}
+
+.blue4-font-custom {
+    color: #7096D2;
+}
+
+.blue5-font-custom {
+    color: #CFE4FF;
+}
+
+.blueWhite-font-custom {
+    color: #E9F2FF;
+}
+
 
 @utility font-poppins {
     font-family: 'Poppins', sans-serif;
