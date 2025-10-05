@@ -7,17 +7,15 @@ interface SectionHeaderProps {
 
 export default function SectionHeader({ title, bgColor = "blue1" }: SectionHeaderProps) {
     return (
-        <section className='w-full py-8 flex-itemx-center justify-center' style={{ backgroundColor: colors[bgColor] }}>
-            <h1 className="absolute text-[6vw] md:text-[4vw] font-bold text-black/20 uppercase tracking-widest text-center">
+        <section className='font-cheapsman w-full py-5 md:py-10 flex items-center relative' style={{ backgroundColor: colors[bgColor] }}>
+            <h1 className="absolute text-[9vw] md:text-[5vw] font-bold text-black/20 uppercase tracking-widest text-center pb-1 md:pb-3">
                 lawang fest run by ampi
             </h1>
             {/* Box Hitam */}
-            <div className="relative bg-black text-white px-8 py-3">
-                <div className="relative bg-black text-white px-8 py-3">
-                    <h2 className="text-lg md:text-xl font-bold tracking-widest uppercase">
-                        {title}
-                    </h2>
-                </div>
+            <div className="relative bg-black text-white px-4 py-1 md:px-8 md:py-3">
+                <h2 className="text-lg md:text-xl font-bold tracking-widest uppercase">
+                    {title}
+                </h2>
             </div>
         </section>
     )

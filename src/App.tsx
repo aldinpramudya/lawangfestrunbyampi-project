@@ -14,12 +14,14 @@ function App() {
   return (
     <div className='min-h-screen overflow-hidden'>
       <Navbar />
-      <Home />
-      <Event />
-      <RouteSchedule />
-      <Registration />
-      <TechnicalInstruction/>
-      <Contact/>
+      <main>
+        <Home />
+        <Event />
+        <RouteSchedule />
+        <Registration />
+        <TechnicalInstruction />
+        <Contact />
+      </main>
     </div>
   )
 }

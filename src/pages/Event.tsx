@@ -27,7 +27,7 @@ export default function Event() {
                     {/* Konten Kiri End */}
 
                     {/* Konten Kanan */}
-                    <div className="grid grid-cols-2 gap-2 md:pt-35 px-20">
+                    <div className="grid grid-cols-2 gap-2 md:pt-35 px-20 pb-4">
                         <img src="/images/running-photos.png" alt="Running Photos" className="w-[250px]" />
                         <img src="/images/running-photos.png" alt="Running Photos" className="w-[250px]" />
                         <img src="/images/running-photos.png" alt="Running Photos" className="w-[250px]" />
