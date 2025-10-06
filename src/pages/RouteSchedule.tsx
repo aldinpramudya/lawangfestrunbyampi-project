@@ -1,6 +1,11 @@
 import SectionHeader from "../components/SectionHeader";
+import { useState } from "react";
+import { routePictures } from "../../constants";
 
 export default function RouteSchedule() {
+    type ImageType = "Rute" | "Venue";
+    const [selectedImage, setSelectedImage] = useState<ImageType>("Rute")
+
     return (
         <section id="rute">
             <div className="min-h-screen bg-white">
@@ -14,9 +19,9 @@ export default function RouteSchedule() {
                                 Hari dan Tanggal :
                             </h4>
                             <p className="font-cheapsman text-6xl md:text-[76px] leading-tight">
-                                SENIN,
+                                MINGGU,
                                 <br />
-                                21 OKTOBER 2025
+                                30 NOVEMBER 2025
                             </p>
                         </div>
 
@@ -24,10 +29,10 @@ export default function RouteSchedule() {
                         <div>
                             <h4
                                 className="uppercase blue3-font-custom font-cheapsman font-semibold text-[30px] tracking-wide mb-2">
-                                Flag Off :
+                                START :
                             </h4>
                             <p className="font-cheapsman text-6xl md:text-[76px] leading-tight">
-                                05.30
+                                05.00 - Finished
                             </p>
                         </div>
 
@@ -38,27 +43,41 @@ export default function RouteSchedule() {
                                 Tempat :
                             </h4>
                             <p className="font-cheapsman text-6xl md:text-[76px] leading-tight">
-                                BALAI KOTA
+                                PETIK MADU
                                 <br />
-                                LALALAND
+                                JL. Dr. Wahidin No. 8, Lawang
                             </p>
                         </div>
                     </div>
                     {/* Konten Kiri End */}
                     {/* Konten Kanan */}
                     <div>
-                        <h4 className="uppercase blue3-font-custom font-cheapsman font-semibold text-[30px] tracking-wide pt-3">
-                            Rute Lari :
-                        </h4>
-                        <div className="overflow-hidden">
+                        {/* Tombol Pilihan */}
+                        <div className="flex justify-center gap-4 mt-4">
+                            {(Object.keys(routePictures) as ImageType[]).map((route) => (
+                                <button
+                                    key={route}
+                                    onClick={() => setSelectedImage(route)}
+                                    className={`px-4 py-2 rounded-lg font-semibold transition-all duration-300 ${selectedImage === route
+                                        ? "bg-blue-600 text-white shadow-lg"
+                                        : "bg-gray-200 hover:bg-gray-300"
+                                        }`}
+                                >
+                                    {route}
+                                </button>
+                            ))}
+                        </div>
+                        {/* Gambar Rute */}
+                        <div className="overflow-hidden mt-6 flex justify-center">
                             <img
-                                src="/images/route.jpg"
-                                alt="Rute Lari"
-                                className="w-[600px] object-cover"
+                                key={selectedImage} 
+                                src={routePictures[selectedImage]}
+                                alt={`Rute Lari ${selectedImage}`}
+                                className="w-[600px] rounded-xl object-cover hover:shadow-[0_0_25px_#3b82f6] transition-all duration-500"
                             />
                         </div>
+                        {/* Konten Kanan End */}
                     </div>
-                    {/* Konten Kanan End */}
                 </div>
             </div>
         </section>

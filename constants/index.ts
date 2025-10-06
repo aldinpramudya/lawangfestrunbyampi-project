@@ -168,5 +168,12 @@ export const rules = [
         no: 20,
         rule : "Segala jenis kehilangan bukan tanggung jawab panitia",
     }
-]
+];
+
+type ImageType = "Rute" | "Venue";
+
+export const routePictures : Record<ImageType, string> = {
+    "Rute": "/images/route.jpg",
+    "Venue": "/images/venue.jpg"
+};
 
