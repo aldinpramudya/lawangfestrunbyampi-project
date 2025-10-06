@@ -10,21 +10,35 @@ export default function Event() {
                             run in nature, feel the village
                         </h2>
                         <p className="indent-9 text-gray-700 px-2 md:text-xl text-justify leading-relaxed max-w-md">
-                            Ampi Fest Running 2025 merupakan event lari yang berada dibawah naungan organisasi Angkatan Muda Pembaharu Indonesia Kab. Malang. 
-                            Event ini bertujuan mewadahi para pemuda dan masyarakat umum terkait pentingnya olahraga serta membangun rasa kebersamaan dan euphoria semangat olahraga! 
-                            Ampi Fest Running hadir untuk pertama kalinya di Petik Madu, kecamatan Lawang, Kabupaten Malang dengan nuansa keindahan alam. 
+                            Ampi Fest Running 2025 merupakan event lari yang berada dibawah naungan organisasi Angkatan Muda Pembaharu Indonesia Kab. Malang.
+                            Event ini bertujuan mewadahi para pemuda dan masyarakat umum terkait pentingnya olahraga serta membangun rasa kebersamaan dan euphoria semangat olahraga!
+                            Ampi Fest Running hadir untuk pertama kalinya di Petik Madu, kecamatan Lawang, Kabupaten Malang dengan nuansa keindahan alam.
                             Kami tunggu kehadiran kalian para runners! See you!
                         </p>
                     </div>
                     {/* Konten Kiri End */}
 
                     {/* Konten Kanan */}
-                    <div className="grid grid-cols-2 gap-2 md:pt-35 px-20 pb-4">
-                        <img src="/images/running-photos.png" alt="Running Photos" className="w-[250px]" />
-                        <img src="/images/running-photos.png" alt="Running Photos" className="w-[250px]" />
-                        <img src="/images/running-photos.png" alt="Running Photos" className="w-[250px]" />
-                        <img src="/images/running-photos.png" alt="Running Photos" className="w-[250px]" />
+                    <div className="flex flex-col md:flex-row items-center justify-center relative md:pt-36 px-8 md:px-16 pb-8">
+                        {/* Gambar Pertama */}
+                        <div className="relative">
+                            <img
+                                src="/images/running-photos.png"
+                                alt="Running Photos"
+                                className="w-[220px] md:w-[320px] rounded-xl shadow-lg transform rotate-[-3deg] md:rotate-[-6deg]"
+                            />
+                        </div>
+
+                        {/* Gambar Kedua (Tumpang Tindih) */}
+                        <div className="absolute md:relative top-16 md:top-0 left-24 md:left-[-60px]">
+                            <img
+                                src="/images/running-photos2.png"
+                                alt="Running Photos 2"
+                                className="w-[220px] md:w-[320px] rounded-xl shadow-lg transform rotate-[3deg] md:rotate-[6deg]"
+                            />
+                        </div>
                     </div>
+
                     {/* Konten Kanan End */}
                 </div>
             </div>
