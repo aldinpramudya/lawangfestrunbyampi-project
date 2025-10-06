@@ -1,4 +1,5 @@
 import SectionHeader from "../components/SectionHeader"
+import Footer from "../components/Footer"
 
 export default function Contact() {
     return (
@@ -44,6 +45,7 @@ export default function Contact() {
                 </div>
                 {/* Container Konten End */}
             </div>
+            <Footer />
         </section>
     )
 }
