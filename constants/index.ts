@@ -3,19 +3,22 @@ export const linkRegistration = [
         id: 1,
         name: "Early Bird",
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSeFWEQPOxKgnblFt5kEJ8hV9lGCLQybLdb8DPfaeQjrNoLT3Q/viewform?usp=header",
-        price: "135,000"
+        price: "135,000",
+        enabled: true,
     },
     {
         id: 2,
         name: "Presale 1",
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSf81IAuyCv1pv-VmECBdQTlffsKDSYYHR8GwQAJGMiIrA9dQg/viewform?usp=header",
-        price: "155,000"
+        price: "155,000",
+        enabled: false,
     },
     {
         id: 3,
         name: "Presale 2",
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSeKHJ8iBsQsZyQceH1c06gPGnY7UqaxUrNX_ufNU5SyTlbDqg/viewform?usp=header",
-        price: "175,000"
+        price: "175,000",
+        enabled: false,
     }
 ];
 
