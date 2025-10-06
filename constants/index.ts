@@ -2,19 +2,19 @@ export const linkRegistration = [
     {
         id: 1,
         name: "Early Bird",
-        googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSd4ACAmv4rngtvFVXT2b0-TriRfxcTycANLgHb1Z4KRrD1KRw/viewform?usp=header",
+        googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSeFWEQPOxKgnblFt5kEJ8hV9lGCLQybLdb8DPfaeQjrNoLT3Q/viewform?usp=header",
         price: "135,000"
     },
     {
         id: 2,
         name: "Presale 1",
-        googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSex45ZFpIBU0670kMA6gPm3T1Br3raUewxtFoIyLKTMDXxuzg/viewform?usp=header",
+        googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSf81IAuyCv1pv-VmECBdQTlffsKDSYYHR8GwQAJGMiIrA9dQg/viewform?usp=header",
         price: "155,000"
     },
     {
         id: 3,
         name: "Presale 2",
-        googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSdW2UH_OFee8rZfPBUBkffg5ZWAr1GFHq4wwc0qTn8CmlUpSw/viewform?usp=header",
+        googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSeKHJ8iBsQsZyQceH1c06gPGnY7UqaxUrNX_ufNU5SyTlbDqg/viewform?usp=header",
         price: "175,000"
     }
 ];
@@ -33,12 +33,12 @@ export const NavLinks = [
         name: "Rute"
     },
     {
-        id: "teknis",
-        name: "Teknis"
-    },
-    {
         id: "pendaftaran",
         name: "Pendaftaran",
+    },
+    {
+        id: "teknis",
+        name: "Teknis"
     },
     {
         id: "contact",
@@ -86,4 +86,87 @@ export const content: Record<string, string[]> = {
         "Panitia berhak untuk mengubah jadwal atau rute lomba jika diperlukan demi keamanan dan kenyamanan peserta. Peserta akan diinformasikan mengenai perubahan tersebut melalui situs resmi AMPI Kabupaten Malang dan media sosial resmi AMPI.",
     ],
 };
+
+export const rules = [
+    {
+        no: 1,
+        rule: "Seluruh Warga Negara Indonesia dapat mendaftar Ampi Fest Running 2025 pada kategori yang telah ditentukan"
+    },
+    {
+        no: 2,
+        rule: "Peserta Warga Negara Asing (WNA) wajib melampirkan fotocopy passport."
+    },
+    {
+        no: 3,
+        rule: "Peserta harus mampu menyelesaikan jarak yang ditentukan, dari garis start ke garis finish, dalam batas waktu yang telah ditentukan"
+    },
+    {
+        no: 4,
+        rule: "Peserta mengakui dan menerima bahwa partisipasi mereka dalam kegiatan lari ini dapat mengakibatkan cedera, cacat, bahkan kematian. Segala risiko ini di tanggung oleh peserta dan membebaskan panitia dari segala macam tuntutan dan bentuk lainnya."
+    },
+    {
+        no: 5,
+        rule: "Peserta yang mengalami cidera / sakit dan harus dirawat di rumah sakit maka segala biaya akan menjadi tanggungan pribadi dan membebaskan panitia dari segala tagihan biaya perawatan tersebut"
+    },
+    {
+        no: 6,
+        rule: "Para peserta diwajibkan mencantumkan kondisi kesehatan yang dianggap dapat membahayakan diri dan disarankan untuk meminta saran medis dari dokter jika mereka ragu akan kondisi Kesehatan mereka sebelum ikut serta dalam kegiatan lari. Panitia atau petugas berhak menolak atau melarang peserta untuk mengikuti lari jika ditemukan potensi yang membahayakan jiwa peserta."
+    },
+    {
+        no: 7,
+        rule : "Peserta diharapkan menggunakan jersey peserta dan wajib menggunakan nomor dada / BIB dengan benar dan lengkap atas nama pribadi. Pemasangan BIB harus dapat terlihat jelas oleh petugas lapangan, Marshal, panitia lari, atau petugas keamanan. Peserta diharuskan mengenakan BIB di dada. Peserta yang tidak mengenakan atau memasang BIB dengan lengkap dan benar dapat dikeluarkan dari rute."
+    },
+    {
+        no: 8,
+        rule : "Peserta diharuskan mempelajari dan mengikuti jalur rute lari dengan benar. Panitia memberikan arahan penanda / sign di sepanjang rute."
+    },
+    {
+        no: 9,
+        rule : "Penyelenggara berhak mengubah waktu start dengan alasan khusus tanpa pemberitahuan terlebih dahulu, namun panyelenggara akan berusaha untuk menginformasikan perubahan waktu start kepada peserta."
+    },
+    {
+        no: 10,
+        rule: "Waktu start berlari 5K : Pukul 05.35 WIB"
+    },
+    {
+        no: 11,
+        rule: "Hewan, sepeda, kereta bayi, kereta dorong, sepatu roda atau alat bantu beroda lainnya tidak diperkenankan berada pada rute lari."
+    },
+    {
+        no: 12,
+        rule : "Peserta yang ikut serta di dalam kegiatan lari, dilarang  menghalangi atau menutupi jalur lari peserta lain."
+    },
+    {
+        no: 13,
+        rule : "Penghentian waktu / Cut off time kategori 5K : 1 jam 30 menit."
+    },
+    {
+        no : 14,
+        rule : "Peserta yang telah melewati batas penghentian waktu / Cut Off Time diharuskan keluar dari jalur lari dan segera kembali ke area finish dengan menggunakan jalur terdekat yang diarahkan oleh panitia, demi keselamatan peserta dan menghindari terperangkap di jalur kendaraan umum."
+    },
+    {
+        no : 15,
+        rule : "Semua Peserta harus berkumpul di lokasi race venue 1 jam sebelum dimulai. Waktu berkumpul yang disarankan adalah pukul 04.45 WIB."
+    },
+    {
+        no: 16,
+        rule : "Tidak ada drop bag / penitipan barang dalam kegiatan lari ini"
+    },
+    {
+        no: 17,
+        rule : "Jika kegiatan lari ini di batalkan oleh suatu hal yang tidak di harapkan oleh panitia/force majeure/bencana alam/kondisi keamanan yang tidak kondusif maka tidak ada refund dan racepack peserta akan tetap di bagikan"
+    },
+    {
+        no: 18,
+        rule : "Peserta yang finish melewati batas Cut off Time (COT) tidak berhak mendapatkan Medali Finisher",
+    },
+    {
+        no:19,
+        rule : "Seluruh perserta Ampi Fest Running 2025 diwajibkan membawa identitas pribadi seperti KTP, SIM, Paspor, BPJS, atau Kartu tanda pengenal lain"
+    },
+    {
+        no: 20,
+        rule : "Segala jenis kehilangan bukan tanggung jawab panitia",
+    }
+]
 

@@ -19,7 +19,7 @@ export default function Footer(){
                     <MdEmail size={25}/>
                 </a>
                 {/* Instagram */}
-                <a href="">
+                <a href="https://www.instagram.com/ampikabmalang/" target="_blank" rel="noopener noreferrer">
                     <FaInstagram size={25}/>
                 </a>
             </div>

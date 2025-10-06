@@ -12,7 +12,7 @@ export default function Contact() {
                         ada pertanyaan ? <br />
                         hubungi kami
                     </h1>
-                    <div className="pt-10">
+                    <div className="pt-10 grid grid-cols-1 md:grid-cols-2">
                         {/* Whatsapp */}
                         <div>
                             <h4 className="uppercase blue3-font-custom font-cheapsman font-semibold text-[30px] tracking-wide">
@@ -25,16 +25,27 @@ export default function Contact() {
                                 </p>
                             </a>
                             <p className="font-cheapsman text-2xl">
-                                an. Vincent
+                                an. Finsya
                             </p>
+                            {/* Instagram */}
+                            <div className="pt-5">
+                                <h4 className="uppercase blue3-font-custom font-cheapsman font-semibold text-[30px] tracking-wide">
+                                    instagram :
+                                </h4>
+                                <a href="https://www.instagram.com/ampikabmalang/" className="hover:underline" target="_blank">
+                                    <p className="font-cheapsman text-5xl md:text-[76px] leading-tight">
+                                        @ampikabmalang
+                                    </p>
+                                </a>
+                            </div>
                         </div>
                         {/* Whatsapp End */}
                         {/* Email */}
-                        <div className="pt-5">
+                        <div className="pt-5 md:pt-0">
                             <h4 className="uppercase blue3-font-custom font-cheapsman font-semibold text-[30px] tracking-wide">
                                 Email :
                             </h4>
-                            <a href="mailto" className="hover:underline" target="_blank">
+                            <a href="mailto:kabmalangampi@gmail.com" className="hover:underline" target="_blank">
                                 <p className="font-cheapsman text-4xl md:text-[76px] leading-tight">
                                     kabmalangampi@gmail.com
                                 </p>
