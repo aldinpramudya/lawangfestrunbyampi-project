@@ -15,7 +15,7 @@ export default function Footer(){
                     <FaWhatsapp size={25}/>
                 </a>
                 {/* Email */}
-                <a href="">
+                <a href="mailto:ampikabmalang2@gmail.com" rel="noopener noreferrer" className="hover:underline" target="_blank">
                     <MdEmail size={25}/>
                 </a>
                 {/* Instagram */}

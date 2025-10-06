@@ -45,9 +45,9 @@ export default function Contact() {
                             <h4 className="uppercase blue3-font-custom font-cheapsman font-semibold text-[30px] tracking-wide">
                                 Email :
                             </h4>
-                            <a href="mailto:kabmalangampi@gmail.com" rel="noopener noreferrer" className="hover:underline" target="_blank">
+                            <a href="mailto:ampikabmalang2@gmail.com" rel="noopener noreferrer" className="hover:underline" target="_blank">
                                 <p className="font-cheapsman text-4xl md:text-[76px] leading-tight">
-                                    kabmalangampi@gmail.com
+                                    ampikabmalang2@gmail.com
                                 </p>
                             </a>
                         </div>
