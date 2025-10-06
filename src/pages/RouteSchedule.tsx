@@ -58,7 +58,7 @@ export default function RouteSchedule() {
                                 <button
                                     key={route}
                                     onClick={() => setSelectedImage(route)}
-                                    className={`px-4 py-2 rounded-lg font-semibold transition-all duration-300 ${selectedImage === route
+                                    className={`font-cheapsman px-4 py-2 rounded-lg font-semibold transition-all duration-300 ${selectedImage === route
                                         ? "bg-blue-600 text-white shadow-lg"
                                         : "bg-gray-200 hover:bg-gray-300"
                                         }`}
