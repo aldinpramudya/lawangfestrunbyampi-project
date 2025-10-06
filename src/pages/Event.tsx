@@ -9,7 +9,7 @@ export default function Event() {
                         <h2 className="font-cheapsman blue1-font-custom text-2xl md:text-3xl font-bold tracking-wide uppercase">
                             run in nature, feel the village
                         </h2>
-                        <p className="text-gray-700 px-2 md:text-xl text-justify leading-relaxed max-w-md">
+                        <p className="indent-9 text-gray-700 px-2 md:text-xl text-justify leading-relaxed max-w-md">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
                             ex sodales, ultrices lectus a, tempus ligula. Sed aliquet magna a
                             massa porttitor tristique. Aenean a dui suscipit, dapibus sem sed,
