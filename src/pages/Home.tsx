@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 
 export default function Home() {
-    const targetDate = new Date('2025-10-20T00:00:00').getTime();
+    const targetDate = new Date('2025-11-30T00:00:00').getTime();
     const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
     useEffect(() => {
@@ -28,7 +28,7 @@ export default function Home() {
                 <div className="relative z-10">
                     {/* Info Tanggal */}
                     <div className="px-7 font-cheapsman">
-                        <p className="text-xl md:text-[48px] tracking-wide uppercase text-white">ampi fest running 2025</p>
+                        <p className="text-xl md:text-[48px] tracking-wide uppercase text-white">ampi fest running 2025 // 30 November 2025</p>
                         <h2 className="text-4xl md:text-[120px] text-white mb-6">EARLY BIRD SUDAH DIBUKA !</h2>
                     </div>
                     {/* Info Tanggal End */}
@@ -58,25 +58,25 @@ export default function Home() {
                     {/* Box End */}
                 </div>
                 {/* Countdown */}
-                <div className="absolute bottom-8 right-0 flex gap-6 font-cheapsman text-center text-white">
+                <div className="font-cheapsman text-center text-white flex items-center justify-center gap-4 absolute md:inset-0 md:gap-6 md:transform md:translate-x-120 top-30 left-0 w-full py-3">
                     <div>
-                        <p className="text-3xl">{timeLeft.days}</p>
-                        <p className="text-sm uppercase">Hari</p>
+                        <p className="text-xl md:text-[110px]">{timeLeft.days}</p>
+                        <p className="text-xs md:text-sm uppercase">Hari</p>
                     </div>
                     <div>|</div>
                     <div>
-                        <p className="text-3xl">{timeLeft.hours}</p>
-                        <p className="text-sm uppercase">Jam</p>
+                        <p className="text-xl md:text-[110px]">{timeLeft.hours}</p>
+                        <p className="text-xs md:text-sm uppercase">Jam</p>
                     </div>
                     <div>|</div>
                     <div>
-                        <p className="text-3xl">{timeLeft.minutes}</p>
-                        <p className="text-sm uppercase">Menit</p>
+                        <p className="text-xl md:text-[110px]">{timeLeft.minutes}</p>
+                        <p className="text-xs md:text-sm uppercase">Menit</p>
                     </div>
                     <div>|</div>
                     <div>
-                        <p className="text-3xl">{timeLeft.seconds}</p>
-                        <p className="text-sm uppercase">Detik</p>
+                        <p className="text-xl md:text-[110px]">{timeLeft.seconds}</p>
+                        <p className="text-xs md:text-sm uppercase">Detik</p>
                     </div>
                 </div>
             </div>
