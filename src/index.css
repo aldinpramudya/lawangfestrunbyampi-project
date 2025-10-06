@@ -47,3 +47,9 @@ html, body {
 @utility font-cheapsman {
     font-family: "Cheapsman", sans-serif;
 }
+
+@media (min-width: 1462px) {
+  .grid-custom {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

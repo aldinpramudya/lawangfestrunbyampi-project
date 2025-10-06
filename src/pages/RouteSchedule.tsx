@@ -10,7 +10,7 @@ export default function RouteSchedule() {
         <section id="rute">
             <div className="min-h-screen bg-white">
                 <SectionHeader title="Rute dan Jadwal" bgColor="blue4" />
-                <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 items-start px-8 py-12 md:px-40 md:py-20">
+                <div className="max-w-8xl mx-auto grid grid-cols-1 grid-custom items-start px-8 py-12 md:px-40 md:py-20">
                     {/* Konten Kiri */}
                     <div className="space-y-3">
                         {/* Hari & Tanggal */}

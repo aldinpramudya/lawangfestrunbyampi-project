@@ -58,25 +58,25 @@ export default function Home() {
                     {/* Box End */}
                 </div>
                 {/* Countdown */}
-                <div className="font-cheapsman text-center text-white flex items-center justify-center gap-4 absolute md:inset-0 md:gap-6 md:transform md:translate-x-120 top-30 left-0 w-full py-3">
+                <div className="font-cheapsman text-center text-white flex items-center justify-center gap-4 absolute 2xl:inset-0 2xl:gap-6 2xl:transform 2xl:translate-x-120 top-30 left-0 w-full py-3">
                     <div>
-                        <p className="text-xl md:text-[110px]">{timeLeft.days}</p>
-                        <p className="text-xs md:text-sm uppercase">Hari</p>
+                        <p className="text-xl 2xl:text-[110px]">{timeLeft.days}</p>
+                        <p className="text-xs 2xl:text-sm uppercase">Hari</p>
                     </div>
                     <div>|</div>
                     <div>
-                        <p className="text-xl md:text-[110px]">{timeLeft.hours}</p>
-                        <p className="text-xs md:text-sm uppercase">Jam</p>
+                        <p className="text-xl 2xl:text-[110px]">{timeLeft.hours}</p>
+                        <p className="text-xs 2xl:text-sm uppercase">Jam</p>
                     </div>
                     <div>|</div>
                     <div>
-                        <p className="text-xl md:text-[110px]">{timeLeft.minutes}</p>
-                        <p className="text-xs md:text-sm uppercase">Menit</p>
+                        <p className="text-xl 2xl:text-[110px]">{timeLeft.minutes}</p>
+                        <p className="text-xs 2xl:text-sm uppercase">Menit</p>
                     </div>
                     <div>|</div>
                     <div>
-                        <p className="text-xl md:text-[110px]">{timeLeft.seconds}</p>
-                        <p className="text-xs md:text-sm uppercase">Detik</p>
+                        <p className="text-xl 2xl:text-[110px]">{timeLeft.seconds}</p>
+                        <p className="text-xs 2xl:text-sm uppercase">Detik</p>
                     </div>
                 </div>
             </div>

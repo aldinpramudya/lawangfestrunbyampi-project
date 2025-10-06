@@ -12,7 +12,7 @@ export default function Contact() {
                         ada pertanyaan ? <br />
                         hubungi kami
                     </h1>
-                    <div className="pt-10 grid grid-cols-1 md:grid-cols-2">
+                    <div className="pt-10 grid grid-cols-1 grid-custom">
                         {/* Whatsapp */}
                         <div>
                             <h4 className="uppercase blue3-font-custom font-cheapsman font-semibold text-[30px] tracking-wide">
@@ -25,7 +25,7 @@ export default function Contact() {
                                 </p>
                             </a>
                             <p className="font-cheapsman text-2xl">
-                                an. Finsya
+                                Admin
                             </p>
                             {/* Instagram */}
                             <div className="pt-5">
