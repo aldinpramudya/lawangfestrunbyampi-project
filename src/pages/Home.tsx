@@ -28,8 +28,8 @@ export default function Home() {
                 <div className="relative z-10">
                     {/* Info Tanggal */}
                     <div className="px-7 font-cheapsman">
-                        <p className="text-xl md:text-[48px] tracking-wide uppercase text-white">PENDAFTARAN DIBUKA :</p>
-                        <h2 className="text-4xl md:text-[120px] text-white mb-6">5 OKTOBER 2025</h2>
+                        <p className="text-xl md:text-[48px] tracking-wide uppercase text-white">ampi fest running 2025</p>
+                        <h2 className="text-4xl md:text-[120px] text-white mb-6">EARLY BIRD SUDAH DIBUKA !</h2>
                     </div>
                     {/* Info Tanggal End */}
                     {/* Box */}
