@@ -11,7 +11,7 @@ export default function Footer(){
             {/* Konten Kanan */}
             <div className="flex items-center space-x-4">
                 {/* Whatsapp */}
-                <a href="https://wa.me/+6281953773800" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/+6285119920913" target="_blank" rel="noopener noreferrer">
                     <FaWhatsapp size={25}/>
                 </a>
                 {/* Email */}

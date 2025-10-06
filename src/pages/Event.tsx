@@ -10,18 +10,10 @@ export default function Event() {
                             run in nature, feel the village
                         </h2>
                         <p className="indent-9 text-gray-700 px-2 md:text-xl text-justify leading-relaxed max-w-md">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
-                            ex sodales, ultrices lectus a, tempus ligula. Sed aliquet magna a
-                            massa porttitor tristique. Aenean a dui suscipit, dapibus sem sed,
-                            molestie mauris. Phasellus dapibus, libero convallis fringilla
-                            convallis, justo quam ultricies turpis, sed posuere mi turpis vel
-                            nisl. Proin sollicitudin vitae felis a tempor.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
-                            ex sodales, ultrices lectus a, tempus ligula. Sed aliquet magna a
-                            massa porttitor tristique. Aenean a dui suscipit, dapibus sem sed,
-                            molestie mauris. Phasellus dapibus, libero convallis fringilla
-                            convallis, justo quam ultricies turpis, sed posuere mi turpis vel
-                            nisl. Proin sollicitudin vitae felis a tempor.
+                            Ampi Fest Running 2025 merupakan event lari yang berada dibawah naungan organisasi Angkatan Muda Pembaharu Indonesia Kab. Malang. 
+                            Event ini bertujuan mewadahi para pemuda dan masyarakat umum terkait pentingnya olahraga serta membangun rasa kebersamaan dan euphoria semangat olahraga! 
+                            Ampi Fest Running hadir untuk pertama kalinya di Petik Madu, kecamatan Lawang, Kabupaten Malang dengan nuansa keindahan alam. 
+                            Kami tunggu kehadiran kalian para runners! See you!
                         </p>
                     </div>
                     {/* Konten Kiri End */}

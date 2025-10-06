@@ -18,9 +18,9 @@ export default function Contact() {
                             <h4 className="uppercase blue3-font-custom font-cheapsman font-semibold text-[30px] tracking-wide">
                                 narahubung / whatsapp :
                             </h4>
-                            <a href="https://wa.me/+6281953773800" className="hover:underline" target="_blank">
+                            <a href="https://wa.me/+6285119920913" className="hover:underline" target="_blank">
                                 <p className="font-cheapsman text-5xl md:text-[76px] leading-tight">
-                                    081953773800
+                                    085119920913
                                     <br />
                                 </p>
                             </a>
@@ -45,7 +45,7 @@ export default function Contact() {
                             <h4 className="uppercase blue3-font-custom font-cheapsman font-semibold text-[30px] tracking-wide">
                                 Email :
                             </h4>
-                            <a href="mailto:kabmalangampi@gmail.com" className="hover:underline" target="_blank">
+                            <a href="mailto:kabmalangampi@gmail.com" rel="noopener noreferrer" className="hover:underline" target="_blank">
                                 <p className="font-cheapsman text-4xl md:text-[76px] leading-tight">
                                     kabmalangampi@gmail.com
                                 </p>

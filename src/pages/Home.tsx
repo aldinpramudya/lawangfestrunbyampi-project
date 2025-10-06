@@ -58,7 +58,7 @@ export default function Home() {
                     {/* Box End */}
                 </div>
                 {/* Countdown */}
-                <div className="absolute bottom-8 right-8 flex gap-6 font-mechelen text-center text-white">
+                <div className="absolute bottom-8 right-0 flex gap-6 font-cheapsman text-center text-white">
                     <div>
                         <p className="text-3xl">{timeLeft.days}</p>
                         <p className="text-sm uppercase">Hari</p>
