@@ -29,7 +29,7 @@ export default function Home() {
                     {/* Info Tanggal */}
                     <div className="px-7 font-cheapsman">
                         <p className="text-xl md:text-[48px] tracking-wide uppercase text-white">ampi fest running 2025 // 30 November 2025</p>
-                        <h2 className="text-4xl md:text-[120px] text-white mb-6">PRESALE 1 SUDAH DIBUKA !</h2>
+                        <h2 className="text-4xl md:text-[120px] text-white mb-6">EARLY BIRD SUDAH DIBUKA !</h2>
                     </div>
                     {/* Info Tanggal End */}
                     {/* Box */}
