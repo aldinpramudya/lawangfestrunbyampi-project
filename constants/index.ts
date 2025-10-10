@@ -4,7 +4,7 @@ export const linkRegistration = [
         name: "Early Bird",
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSeFWEQPOxKgnblFt5kEJ8hV9lGCLQybLdb8DPfaeQjrNoLT3Q/viewform?usp=header",
         price: "135,000",
-        enabled: true,
+        enabled: false,
         closed : true,
     },
     {
@@ -12,7 +12,7 @@ export const linkRegistration = [
         name: "Presale 1",
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSf81IAuyCv1pv-VmECBdQTlffsKDSYYHR8GwQAJGMiIrA9dQg/viewform?usp=header",
         price: "155,000",
-        enabled: false,
+        enabled: true,
         closed : false,
     },
     {
