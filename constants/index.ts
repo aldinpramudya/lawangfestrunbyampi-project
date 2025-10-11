@@ -4,7 +4,7 @@ export const linkRegistration = [
         name: "Early Bird",
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSeFWEQPOxKgnblFt5kEJ8hV9lGCLQybLdb8DPfaeQjrNoLT3Q/viewform?usp=header",
         price: "135,000",
-        enabled: false,
+        enabled: true,
         closed : true,
     },
     {
@@ -13,6 +13,7 @@ export const linkRegistration = [
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSf81IAuyCv1pv-VmECBdQTlffsKDSYYHR8GwQAJGMiIrA9dQg/viewform?usp=header",
         price: "155,000",
         enabled: true,
+        closed: false,
     },
     {
         id: 3,
@@ -20,6 +21,7 @@ export const linkRegistration = [
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSeKHJ8iBsQsZyQceH1c06gPGnY7UqaxUrNX_ufNU5SyTlbDqg/viewform?usp=header",
         price: "175,000",
         enabled: false,
+        closed: false,
     }
 ];
 

@@ -5,7 +5,7 @@ interface CardRegistrationProps {
     googleForm: string;
     price: string;
     enabled: boolean;
-    closed? : boolean;
+    closed?: boolean;
 }
 
 export default function CardRegistration({
@@ -20,8 +20,14 @@ export default function CardRegistration({
                 ${!enabled ? "bg-gray-300 opacity-70 pointer-events-none" : "bg-white hover:scale-[1.03]"}`}>
             {/* Overlay jika disabled */}
             {(!enabled || closed) && (
-                <div className="absolute inset-0 bg-black/40 rounded-2xl flex items-center justify-center">
-                    <span className="text-white font-cheapsman text-3xl md:text-5xl uppercase tracking-wider">
+                <div
+                    className={`absolute inset-0 rounded-2xl flex items-center justify-center 
+          ${closed ? 'bg-red-600/40' : 'bg-black/40'}`}
+                >
+                    <span
+                        className={`font-cheapsman text-3xl md:text-5xl uppercase tracking-wider 
+            ${closed ? 'text-red-500' : 'text-white'}`}
+                    >
                         {closed ? 'Closed' : 'Coming Soon'}
                     </span>
                 </div>
@@ -45,13 +51,22 @@ export default function CardRegistration({
 
             {/* Button */}
             {enabled ? (
-                <a href={googleForm} target="_blank">
+                closed ? (
                     <button
-                        className="mt-4 bg-blue-600 font-cheapsman text-white md:text-xl font-semibold tracking-wider uppercase px-6 py-3 rounded-md hover:bg-blue-700 transition-all duration-300"
+                        disabled
+                        className="mt-4 bg-red-600 text-white cursor-not-allowed font-cheapsman md:text-xl font-semibold tracking-wider uppercase px-6 py-3 rounded-md transition-all duration-300"
                     >
-                        Daftar Sekarang
+                        Closed
                     </button>
-                </a>
+                ) : (
+                    <a href={googleForm} target="_blank">
+                        <button
+                            className="mt-4 bg-blue-600 font-cheapsman text-white md:text-xl font-semibold tracking-wider uppercase px-6 py-3 rounded-md hover:bg-blue-700 transition-all duration-300"
+                        >
+                            Daftar Sekarang
+                        </button>
+                    </a>
+                )
             ) : (
                 <button
                     disabled
