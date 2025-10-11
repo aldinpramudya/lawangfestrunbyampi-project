@@ -5,22 +5,24 @@ interface CardRegistrationProps {
     googleForm: string;
     price: string;
     enabled: boolean;
+    closed? : boolean;
 }
 
 export default function CardRegistration({
     name,
     googleForm,
     price,
-    enabled
+    enabled,
+    closed,
 }: CardRegistrationProps) {
     return (
         <div className={`relative rounded-2xl shadow-lg mt-4 md:p-2 w-[250px] h-[280px] md:w-[440px] md:h-[500px] flex flex-col items-center text-center transition-all duration-300 mb-4 
                 ${!enabled ? "bg-gray-300 opacity-70 pointer-events-none" : "bg-white hover:scale-[1.03]"}`}>
             {/* Overlay jika disabled */}
-            {!enabled&& (
+            {(!enabled || closed) && (
                 <div className="absolute inset-0 bg-black/40 rounded-2xl flex items-center justify-center">
                     <span className="text-white font-cheapsman text-3xl md:text-5xl uppercase tracking-wider">
-                        Coming Soon
+                        {closed ? 'Closed' : 'Coming Soon'}
                     </span>
                 </div>
             )}
