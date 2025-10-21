@@ -10,7 +10,7 @@ export const linkRegistration = [
     {
         id: 2,
         name: "Presale 1",
-        googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSf81IAuyCv1pv-VmECBdQTlffsKDSYYHR8GwQAJGMiIrA9dQg/viewform?usp=header",
+        googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSfcjrLeYq01dUp_IlnKv7OLUMDAcNXE67NZQ7ZuIseuuHx1PQ/viewform?usp=header",
         price: "155,000",
         enabled: true,
         closed: false,
