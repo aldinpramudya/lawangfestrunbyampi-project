@@ -10,15 +10,15 @@ export const linkRegistration = [
     {
         id: 2,
         name: "Presale 1",
-        googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSfcjrLeYq01dUp_IlnKv7OLUMDAcNXE67NZQ7ZuIseuuHx1PQ/viewform?usp=header",
+        googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSd0d5e9vMhLBgpqQYDTahhWoNum8OaZkyVau0jHw1gTFXfGKA/viewform?usp=sharing&ouid=110580959809711562754",
         price: "155,000",
         enabled: true,
         closed: false,
     },
     {
         id: 3,
-        name: "Presale 2",
-        googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSeKHJ8iBsQsZyQceH1c06gPGnY7UqaxUrNX_ufNU5SyTlbDqg/viewform?usp=header",
+        name: "Pelajar",
+        googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSchZjZ5iDALaibBz4Rxqt_nfampNlWOTcsAJ3poRyI6GAYVWw/viewform?usp=dialog",
         price: "175,000",
         enabled: false,
         closed: false,
