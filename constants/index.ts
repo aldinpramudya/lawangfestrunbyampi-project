@@ -20,7 +20,7 @@ export const linkRegistration = [
         name: "Pelajar",
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSchZjZ5iDALaibBz4Rxqt_nfampNlWOTcsAJ3poRyI6GAYVWw/viewform?usp=dialog",
         price: "140,000",
-        enabled: false,
+        enabled: true,
         closed: false,
     }
 ];
