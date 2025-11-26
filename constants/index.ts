@@ -13,7 +13,7 @@ export const linkRegistration = [
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSd0d5e9vMhLBgpqQYDTahhWoNum8OaZkyVau0jHw1gTFXfGKA/viewform?usp=sharing&ouid=110580959809711562754",
         price: "155,000",
         enabled: true,
-        closed: false,
+        closed: true,
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ export const linkRegistration = [
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSchZjZ5iDALaibBz4Rxqt_nfampNlWOTcsAJ3poRyI6GAYVWw/viewform?usp=dialog",
         price: "140,000",
         enabled: true,
-        closed: false,
+        closed: true,
     }
 ];
 
